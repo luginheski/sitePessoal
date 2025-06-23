@@ -87,26 +87,61 @@
             <hr>
             <h4>FORMAÇÃO ACADEMICA:</h4>
             <ul>
-                <li><b>Técnico em desenvolvimento de Sistemas: <button type="button" class="btn btn-outline-secondary  btn-sm"onclick="mostrarPopUp()">Detalhes</button></b></li>
-                <div id="meuPopUp">
-                    <p>Grade curriular</p>
-                    <ul>
-                        <li>Planejar o desenvolvimento de software</li>
-                        <li>Desenvolver algoritmos</li>
-                        <li>Auxiliar na administração de banco de dados</li>
-                        <li>Auxiliar na modelagem e manipulação de banco de dados</li>
-                        <li>Desenvolver Código Orientado a Objetos</li>
-                        <li>Desenvolver e organizar interface gráfica para aplicações desktop</li>
-                        <li>Programar aplicativos computacionais com integração de banco de dados para desktop.</li>
-                        <li>Auxiliar na elaboração de projeto de sistema orientado a objeto</li>
-                        <li>Desenvolver projeto de interface para melhor experiência do usuário</li>
-                        <li>Executar testes e realizar melhorias em aplicativos computacionais Desktop</li>
-                        <li>Gerenciar a Configuração e Versionamento de Software</li>
-                        <li>Desenvolver e organizar interface de usuário e elementos visuais para aplicações web. (front-end.)</li>
-                        <li>Programar aplicativos computacionais com integração de banco de dados para web. (back-end)</li>
-                    </ul>
-                    <hr>
-                    <button type="button" class="btn btn-outline-secondary btn-sm" onclick="esconderPopUp()">Fechar</button>
+                <li><b>Técnico em desenvolvimento de Sistemas: <button type="button"
+                            class="btn btn-outline-secondary  btn-sm" data-bs-toggle="modal"
+                            data-bs-target="#myModal">Detalhes</button></b></li>
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content text-black">
+
+                            <div class="modal-header">
+                                <h4 class="modal-title">Grade curricular</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <ul>
+                                    <li>Planejar o desenvolvimento de software</li>
+                                    <li>Desenvolver algoritmos</li>
+                                    <li>Auxiliar na administração de banco de dados</li>
+                                    <li>Auxiliar na modelagem e manipulação de banco de dados</li>
+                                    <li>Desenvolver Código Orientado a Objetos</li>
+                                    <li>Desenvolver e organizar interface gráfica para aplicações desktop</li>
+                                    <li>Programar aplicativos computacionais com integração de banco de dados para
+                                        desktop.</li>
+                                    <li>Auxiliar na elaboração de projeto de sistema orientado a objeto</li>
+                                    <li>Desenvolver projeto de interface para melhor experiência do usuário</li>
+                                    <li>Executar testes e realizar melhorias em aplicativos computacionais Desktop</li>
+                                    <li>Gerenciar a Configuração e Versionamento de Software</li>
+                                    <li>Desenvolver e organizar interface de usuário e elementos visuais para aplicações
+                                        web. (front-end.)</li>
+                                    <li>Programar aplicativos computacionais com integração de banco de dados para web.
+                                        (back-end)</li>
+                                </ul>
+                                <hr>
+                                <p>Tecnologias utilizadas</p>
+                                <ul>
+                                    <li>JAVA</li>
+                                    <li>JAVA Script</li>
+                                    <li>CSS</li>
+                                    <li>BoodsTrap</li>
+                                    <li>Figma</li>
+                                    <li>GitHub</li>
+                                    <li>KANBAN</li>
+                                    <li>SCRUM</li>
+                                    <li>Html</li>
+                                    <li>MySQL</li>
+                                    <li>NoSql</li>
+                                    <li>TypeScrip</li>
+                                    <li>VScode</li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-secondary btn-sm"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <li>Técnico Mecatrônico - ENSITEC</li>
                 <li>Ensino médio completo - Colégio Estadual Newton Ferreira da Costa</li>
@@ -122,7 +157,6 @@
             </p>
         </div>
     </div>
-    <script src="scrypt.js"></script>
 </body>
 
 </html>
